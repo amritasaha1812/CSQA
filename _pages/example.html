@@ -45,21 +45,8 @@
 
        $.getJSON('../example_dialogs/ex_1.json', function(data) {
            $.each(data, function(i, f) {
-              if (i>0)
-              {
-              if (f.speaker == "USER")
-              {
-                var tblRow = "<tr>" + "<td>" + "<b>" + "USER: " + "</b>" + f.utterance + "</td>" + "</tr>"
-               $(tblRow).appendTo("#userdata_1 tbody");
-             }
-             else
-             {
-              var tblRow = "<tr>" + "<td>" + "<b>" + "SPEAKER: " + "</b>" + f.utterance + "</td>" + "</tr>"
-               $(tblRow).appendTo("#userdata_1 tbody");
-             }
-           }
-           else
-           {
+            if (i<2)
+            {
             for (key in f)
             {
               if (key == "ques_type_id")
@@ -76,9 +63,13 @@
                 desc = "A string which uniquely identifies the question"
               else if (key == "utterance")
                 desc = "The utterance: either the question, clarification or response"
+              else if (key == 'active_set')
+                desc = "A regex which identifies the entity set of answer list"
               var tblRow = "<tr>" + "<td>" + "<b>" + key + "</b>: " + f[key] + " <em> (" + desc + ") </em>" + "</td>" + "</tr>"
                $(tblRow).appendTo("#userdata_1 tbody");
             }
+            var tblRow = "<hr>"
+              $(tblRow).appendTo("#userdata_1 tbody");
            }
          });
 
@@ -114,6 +105,22 @@
 
        });
 
+        $.getJSON('../example_dialogs/ex_4.json', function(data) {
+           $.each(data, function(i, f) {
+              if (f.speaker == "USER")
+              {
+                var tblRow = "<tr>" + "<td>" + "<b>" + "USER: " + "</b>" + f.utterance + "</td>" + "</tr>"
+               $(tblRow).appendTo("#userdata_4 tbody");
+             }
+             else
+             {
+              var tblRow = "<tr>" + "<td>" + "<b>" + "SPEAKER: " + "</b>" + f.utterance + "</td>" + "</tr>"
+               $(tblRow).appendTo("#userdata_4 tbody");
+             }
+         });
+
+       });
+
        });
 
     });
@@ -122,8 +129,8 @@
   </head>
 
   <body>
-    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_1">Example 1</button> <br>
-
+    <!-- <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_1">Example 1</button> <br> -->
+    <h4> Description of fields in JSON </h4>
     <div class="wrapper">
     <div class="profile">
     <table id= "userdata_1" border="2">
@@ -133,7 +140,7 @@
     </table>
     <br>
 
-    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_2">Example 2</button> <br>
+    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_2">Example 1</button> <br>
 
     <table id= "userdata_2" border="2">
       <tbody>
@@ -142,9 +149,18 @@
     </table>
     <br>
 
-    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_3">Example 3</button> <br>
+    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_3">Example 2</button> <br>
 
     <table id= "userdata_3" border="2">
+      <tbody>
+
+      </tbody>
+    </table>
+    <br>
+
+    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_3">Example 3</button> <br>
+
+    <table id= "userdata_4" border="2">
       <tbody>
 
       </tbody>
