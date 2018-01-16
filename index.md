@@ -42,7 +42,7 @@ Please [Click here]({{site.baseurl}}/download/) to download the dataset.
 	<li>&nbsp;&nbsp;&nbsp;Large Scale of the Knowledge Base (consisting of millions of entities)</li>
 	</ul>
 </li>	
-
+<br/>
 <li> <ul style="list-style-type:disc"><b> Complexities in handling sequential Question Answering</b>
 	<li>&nbsp;&nbsp;&nbsp;Use conversation context to resolve co-references and ellipsis in utterances</li>
  	<li>&nbsp;&nbsp;&nbsp;Ask for clarifications for ambiguous queries</li>
