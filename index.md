@@ -35,15 +35,16 @@ Please [Click here]({{site.baseurl}}/download/) to download the dataset.
 ---
 ### The main challenges in this dataset are two-fold
 <ul style="list-style-type:disc">
-<li> <ul style="list-style-type:disc"> Complexities in KB-based Question Answering 
-        <li>Some categories of questions cannot be answered from a single KB-tuple and needs inferencing over a much larger subgraph</li>
-	<li>Different kinds of inferencing required; logical, quantitative, comparative as well as their combinations</li>
-	<li>Large Scale of the Knowledge Base (consisting of millions of entities)</li>
+<li> <ul style="list-style-type:disc"><b> Complexities in KB-based Question Answering</b> 
+        <li>&nbsp;&nbsp;&nbsp;Some categories of questions cannot be answered from a single KB-tuple and needs inferencing over a much larger subgraph</li>
+	<li>&nbsp;&nbsp;&nbsp;Different kinds of inferencing required; logical, quantitative, comparative as well as their combinations</li>
+	<li>&nbsp;&nbsp;&nbsp;Large Scale of the Knowledge Base (consisting of millions of entities)</li>
 	</ul>
 </li>	
-<li> <ul style="list-style-type:disc"> Complexities in handling sequential Question Answering
-	<li>Use conversation context to resolve co-references and ellipsis in utterances</li>
- 	<li>Ask for clarifications for ambiguous queries</li>
+
+<li> <ul style="list-style-type:disc"><b> Complexities in handling sequential Question Answering</b>
+	<li>&nbsp;&nbsp;&nbsp;Use conversation context to resolve co-references and ellipsis in utterances</li>
+ 	<li>&nbsp;&nbsp;&nbsp;Ask for clarifications for ambiguous queries</li>
 	</ul>
 </li>
 </ul>	
