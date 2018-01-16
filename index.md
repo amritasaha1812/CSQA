@@ -33,7 +33,8 @@ Please download the paper here [paper link](paper.pdf)
 Please [Click here]({{site.baseurl}}/download/) to download the dataset.
 
 ---
-### The main challenges in this dataset are two-fold
+### Two-Fold Challenges of this Dataset
+
 <ul style="list-style-type:disc">
 <li> <ul style="list-style-type:disc"><b> Complexities in KB-based Question Answering</b> 
         <li>&nbsp;&nbsp;&nbsp;Some categories of questions cannot be answered from a single KB-tuple and needs inferencing over a much larger subgraph</li>
