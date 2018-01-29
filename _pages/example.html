@@ -28,7 +28,7 @@
       <div class="container-fluid">
           <ul class="nav navbar-nav navbar-left horizontal-list" style="list-style: none;">            
                   <li><a href="../">Home</a></li>
-                  <li><a href="../about">About</a></li>
+                  <!-- <li><a href="../about">About</a></li> -->
                   <li><a href="../_pages/people.html">People</a></li>
                   <li><a href="../dataset/">Dataset</a></li>
                   <li><a href="../download/">Download</a></li>
@@ -63,10 +63,17 @@
                 desc = "A string which uniquely identifies the question"
               else if (key == "utterance")
                 desc = "The utterance: either the question, clarification or response"
-              else if (key == 'active_set')
-                desc = "A regex which identifies the entity set of answer list"
+              // else if (key == 'active_set')
+              //   desc = "A regex which identifies the entity set of answer list"
+              else if (key == 'ans_list_full')
+                desc = "list of ALL entities which constitute the answer of the question"
+              else
+                desc = ""
+              if (desc != "")
+              {
               var tblRow = "<tr>" + "<td>" + "<b>" + key + "</b>: " + f[key] + " <em> (" + desc + ") </em>" + "</td>" + "</tr>"
                $(tblRow).appendTo("#userdata_1 tbody");
+              }
             }
             var tblRow = "<hr>"
               $(tblRow).appendTo("#userdata_1 tbody");
@@ -158,7 +165,7 @@
     </table>
     <br>
 
-    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_3">Example 3</button> <br>
+    <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_4">Example 3</button> <br>
 
     <table id= "userdata_4" border="2">
       <tbody>
@@ -168,8 +175,9 @@
   </div>
 </div>
 
-
-    
+<br>
+<b>NOTE</b>: For any of the tasks, (and our baselines), entities or ans_list_full, relations etc cannot be used for training and ONLY for evaluation. 
+<br>
 
 
   </body>
