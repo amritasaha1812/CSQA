@@ -30,12 +30,12 @@ Please download the paper here [paper link](https://arxiv.org/abs/1801.10314)
 ---
 **BIBTEX**
 
-@article{1801.10314,
-Author = {Amrita Saha and Vardaan Pahuja and Mitesh M. Khapra and Karthik Sankaranarayanan and Sarath Chandar},
-Title = {Complex Sequential Question Answering: Towards Learning to Converse Over Linked Question Answer Pairs with a Knowledge Graph},
-Year = {2018},
-Eprint = {arXiv:1801.10314},
-}
+@article{1801.10314, </br>
+Author = {Amrita Saha and Vardaan Pahuja and Mitesh M. Khapra and Karthik Sankaranarayanan and Sarath Chandar},</br>
+Title = {Complex Sequential Question Answering: Towards Learning to Converse Over Linked Question Answer Pairs with a Knowledge Graph},</br>
+Year = {2018},</br>
+Eprint = {arXiv:1801.10314},</br>
+}</br>
 
 ---
 ---
