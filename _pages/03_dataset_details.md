@@ -316,47 +316,47 @@ Comparative Indirect (more/less) multiple entity (which)
   </tr>
 </table>
 
-### Dataset statistics
+### Dataset statistics (Number of QA pairs for each question type)
 
-| ﻿Question Type                                                                                            | Train  | Valid | Test  | Train/Valid | Train/Test  |
-|----------------------------------------------------------------------------------------------------------|--------|-------|-------|-------------|-------------|
-| Simple&#124;Direct                                                                                       | 446927 | 47868 | 74800 | 9.336654968 | 5.974959893 |
-| Simple&#124;Indirect                                                                                     | 285825 | 30397 | 49993 | 9.403066092 | 5.717300422 |
-| Simple&#124;Incomplete                                                                                   | 54711  | 5913  | 8664  | 9.252663623 | 6.314750693 |
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Direct                                 | 37090  | 4199  | 6591  | 8.833055489 | 5.627370657 |
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Indirect                               | 8090   | 858   | 1427  | 9.428904429 | 5.66923616  |
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Incomplete                             | 15260  | 1747  | 2448  | 8.734974242 | 6.233660131 |
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Direct                                | 42930  | 4629  | 4472  | 9.274141283 | 9.599731664 |
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Indirect                              | 9793   | 1020  | 1222  | 9.600980392 | 8.01391162  |
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Incomplete                            | 17450  | 1885  | 1277  | 9.25729443  | 13.66483947 |
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Direct                                            | 37784  | 3995  | 6677  | 9.457822278 | 5.658828815 |
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Indirect                                          | 8161   | 899   | 1340  | 9.077864294 | 6.090298507 |
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Incomplete                                        | 15598  | 1626  | 2449  | 9.592865929 | 6.369130257 |
-| Comparative&#124;More/Less&#124;Single entity type&#124;Direct                                           | 43529  | 4639  | 4376  | 9.383272257 | 9.947212066 |
-| Comparative&#124;More/Less&#124;Single entity type&#124;Indirect                                         | 9786   | 1082  | 1286  | 9.044362292 | 7.609642302 |
-| Comparative&#124;More/Less&#124;Single entity type&#124;Incomplete                                       | 17781  | 1887  | 1228  | 9.422893482 | 14.47964169 |
-| Logical&#124;Union&#124;Direct                                                                           | 30267  | 3347  | 5656  | 9.043023603 | 5.351308345 |
-| Logical&#124;Intersection&#124;Direct                                                                    | 21151  | 2293  | 4086  | 9.224160488 | 5.176456192 |
-| Logical&#124;Difference&#124;Direct                                                                      | 1497   | 166   | 298   | 9.018072289 | 5.023489933 |
-| Logical&#124;Incomplete                                                                                  | 4909   | 533   | 1083  | 9.210131332 | 4.532779317 |
-| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct             | 25484  | 2674  | 4409  | 9.530291698 | 5.779995464 |
-| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct            | 31668  | 3439  | 2395  | 9.20849084  | 13.22254697 |
-| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct  | 25210  | 2693  | 4367  | 9.361307092 | 5.772841768 |
-| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct | 31121  | 3366  | 2323  | 9.245692216 | 13.39690056 |
-| Quantitative&#124;Count&#124;Logical operators&#124;Direct                                               | 25731  | 2661  | 4001  | 9.669673055 | 6.431142214 |
-| Quantitative&#124;Count&#124;Logical operators&#124;Indirect                                             | 9350   | 998   | 1621  | 9.368737475 | 5.768044417 |
-| Quantitative&#124;Count&#124;Mult. entity type&#124;Direct                                               | 29420  | 3150  | 4925  | 9.33968254  | 5.973604061 |
-| Quantitative&#124;Count&#124;Single entity type&#124;Direct                                              | 64225  | 6761  | 8318  | 9.499334418 | 7.721207021 |
-| Quantitative&#124;Count&#124;Single entity type&#124;Indirect                                            | 15690  | 1645  | 2194  | 9.537993921 | 7.151321787 |
-| Quantitative&#124;Count&#124;Single entity type&#124;Incomplete                                          | 26472  | 2752  | 3348  | 9.619186047 | 7.906810036 |
-| Verification&#124;Single/Multiple Entity&#124;Direct                                                     | 66550  | 7101  | 13879 | 9.371919448 | 4.79501405  |
-| Verification&#124;Single/Multiple Entity&#124;Indirect                                                   | 91061  | 9965  | 17003 | 9.138083292 | 5.355584309 |
-| Clarification (All)                                                                                      | 62825  | 6761  | 9348  | 9.292264458 | 6.720688917 |
-| Indirect (All)                                                                                           | 412716 | 44221 | 72271 | 9.333031817 | 5.710672331 |
-| Incomplete (All)                                                                                         | 176284 | 18926 | 23453 | 9.314382331 | 7.516479768 |
-| Logical&#124;Multiple Relations&#124;Direct                                                              | 29537  | 3209  | 5463  | 9.204425055 | 5.406736226 |
-| Quantitative&#124;Min/Max&#124;Single entity type                                                        | 33580  | 3664  | 304   | 9.164847162 | 110.4605263 |
-| Quantitative&#124;Min/Max&#124;Mult. entity type                                                         | 25363  | 2725  | 2813  | 9.307522936 | 9.016352648 |
+| ﻿Question Type                                                                                            | Train  | Valid | Test  | 
+|----------------------------------------------------------------------------------------------------------|--------|-------|-------|
+| Simple&#124;Direct                                                                                       | 446,927 | 47,868 | 74,800 | 
+| Simple&#124;Indirect                                                                                     | 285,825 | 30,397 | 49,993 | 
+| Simple&#124;Incomplete                                                                                   | 54,711  | 5,913  | 8,664  | 
+| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Direct                                 | 37,090  | 4,199  | 6,591  |
+| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Indirect                               | 8,090   | 858   | 1,427 |
+| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Incomplete                             | 15,260  | 1,747  | 2,448  |
+| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Direct                                | 42,930  | 4,629  | 4,472  |
+| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Indirect                              | 9,793   | 1,020  | 1,222  | 
+| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Incomplete                            | 17450  | 1885  | 1277  | 
+| Comparative&#124;More/Less&#124;Mult. entity type&#124;Direct                                            | 37784  | 3995  | 6677  | 
+| Comparative&#124;More/Less&#124;Mult. entity type&#124;Indirect                                          | 8161   | 899   | 1340  | 
+| Comparative&#124;More/Less&#124;Mult. entity type&#124;Incomplete                                        | 15598  | 1626  | 2449  | 
+| Comparative&#124;More/Less&#124;Single entity type&#124;Direct                                           | 43529  | 4639  | 4376  |
+| Comparative&#124;More/Less&#124;Single entity type&#124;Indirect                                         | 9786   | 1082  | 1286  |
+| Comparative&#124;More/Less&#124;Single entity type&#124;Incomplete                                       | 17781  | 1887  | 1228  | 
+| Logical&#124;Union&#124;Direct                                                                           | 30267  | 3347  | 5656  | 
+| Logical&#124;Intersection&#124;Direct                                                                    | 21151  | 2293  | 4086  |
+| Logical&#124;Difference&#124;Direct                                                                      | 1497   | 166   | 298   |
+| Logical&#124;Incomplete                                                                                  | 4909   | 533   | 1083  |
+| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct             | 25484  | 2674  | 4409  | 
+| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct            | 31668  | 3439  | 2395  | 
+| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct  | 25210  | 2693  | 4367  | 
+| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct | 31121  | 3366  | 2323  | 
+| Quantitative&#124;Count&#124;Logical operators&#124;Direct                                               | 25731  | 2661  | 4001  |
+| Quantitative&#124;Count&#124;Logical operators&#124;Indirect                                             | 9350   | 998   | 1621  | 
+| Quantitative&#124;Count&#124;Mult. entity type&#124;Direct                                               | 29420  | 3150  | 4925  | 
+| Quantitative&#124;Count&#124;Single entity type&#124;Direct                                              | 64225  | 6761  | 8318  | 
+| Quantitative&#124;Count&#124;Single entity type&#124;Indirect                                            | 15690  | 1645  | 2194  | 
+| Quantitative&#124;Count&#124;Single entity type&#124;Incomplete                                          | 26472  | 2752  | 3348  | 
+| Verification&#124;Single/Multiple Entity&#124;Direct                                                     | 66550  | 7101  | 13879 | 
+| Verification&#124;Single/Multiple Entity&#124;Indirect                                                   | 91061  | 9965  | 17003 | |
+| Clarification (All)                                                                                      | 62825  | 6761  | 9348  | 
+| Indirect (All)                                                                                           | 412716 | 44221 | 72271 | 
+| Incomplete (All)                                                                                         | 176284 | 18926 | 23453 | 
+| Logical&#124;Multiple Relations&#124;Direct                                                              | 29537  | 3209  | 5463  | 
+| Quantitative&#124;Min/Max&#124;Single entity type                                                        | 33580  | 3664  | 304   | 
+| Quantitative&#124;Min/Max&#124;Mult. entity type                                                         | 25363  | 2725  | 2813  | 
 
 ### Types of questions in the dataset
 
