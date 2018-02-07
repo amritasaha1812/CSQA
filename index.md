@@ -28,6 +28,12 @@ Please download the paper here [paper link](https://arxiv.org/abs/1801.10314)
 
 ---
 ---
+**AAAI 2018 SLIDES**
+<!-- Put paper arxiv link here -->
+Please download the slides here [paper link](CSQA_AAAI.pptx)
+
+---
+---
 **BIBTEX**
 
 @article{1801.10314, <br/>
