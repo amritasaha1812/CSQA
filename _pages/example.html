@@ -55,7 +55,7 @@
                 desc = "Description of type of question"
               else if (key == "relations")
                 desc = "ID's of predicates used in the utterance"
-              else if (key == "entities")
+              else if (key == "entities_in_utterance")
                 desc = "ID's of entities used in the question"
               else if (key == "speaker")
                 desc = "The nature of speaker: SYSTEM or USER"
@@ -65,7 +65,7 @@
                 desc = "The utterance: either the question, clarification or response"
               // else if (key == 'active_set')
               //   desc = "A regex which identifies the entity set of answer list"
-              else if (key == 'ans_list_full')
+              else if (key == 'all_entities')
                 desc = "list of ALL entities which constitute the answer of the question"
               else
                 desc = ""
