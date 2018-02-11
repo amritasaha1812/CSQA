@@ -5,7 +5,7 @@
   "relations": [
    "P520"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q10515088"
   ], 
   "speaker": "USER", 
@@ -13,10 +13,10 @@
   "utterance": "What is the weapon used by HMS Regulus ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q1087978"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1087978"
   ], 
   "speaker": "SYSTEM", 
@@ -33,7 +33,7 @@
   "relations": [
    "P176"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1087978"
   ], 
   "speaker": "USER", 
@@ -42,10 +42,10 @@
   "utterance": "Who is the manufacturer of that ranged weapon ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q10501533"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q10501533"
   ], 
   "speaker": "SYSTEM", 
@@ -61,7 +61,7 @@
   "relations": [
    "P17"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q10501533", 
    "Q7445835", 
    "Q58902"
@@ -72,8 +72,8 @@
   "utterance": "Is that social group located in Seeley Union Elementary School District and Succivo ?"
  }, 
  {
-  "ans_list_full": [], 
-  "entities": [], 
+  "all_entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(Q10501533,P17,Q7445835)', u'(Q10501533,P17,Q58902)']}@{entities:[]}@{speaker:SYSTEM}@{utterance:NO}", 
   "utterance": "NO", 
@@ -88,7 +88,7 @@
   "relations": [
    "P137"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1087978", 
    "Q1141396"
   ], 
@@ -98,8 +98,8 @@
   "utterance": "Is Swedish Navy the facility operator of Torpedo 61 ?"
  }, 
  {
-  "ans_list_full": [], 
-  "entities": [], 
+  "all_entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(Q1087978,P137,Q1141396)']}@{entities:[]}@{speaker:SYSTEM}@{utterance:YES}", 
   "utterance": "YES", 
@@ -116,14 +116,14 @@
    "P520"
   ], 
   "count_ques_sub_type": 4, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "USER", 
   "signature": "{N:140}@{count_ques_sub_type:4}@{count_ques_type:1}@{description:Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Mult. entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q153556}@{prop_res:P520}@{qualifier_choice:atmost}@{ques_type_id:8}@{relations:[u'P520']}@{set_op:1}@{speaker:USER}@{sub_par_1:Q2235308}@{sub_par_2:Q20027951}@{utterance:Which ranged weapons are used as weapons by atmost 140 ship types and aircraft power classes ?}", 
   "is_incomplete": 0, 
   "utterance": "Which ranged weapons are used as weapons by atmost 140 ship types and aircraft power classes ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q1088886", 
    "Q603126", 
    "Q384792", 
@@ -140,7 +140,7 @@
    "Q8059863", 
    "Q1087978"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1088886", 
    "Q4043728", 
    "Q3012635"
@@ -160,14 +160,14 @@
    "P138"
   ], 
   "count_ques_sub_type": 3, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "signature": "{N:1}@{count_ques_sub_type:3}@{count_ques_type:1}@{description:Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Single entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q2235308}@{prop_res:P138}@{qualifier_choice:atmost}@{ques_type_id:7}@{relations:[u'P138']}@{speaker:USER}@{sub_par:Q874405}@{utterance:Which ship types are the etymology of atmost 1 social group ?}", 
   "count_ques_type": 1, 
   "utterance": "Which ship types are the etymology of atmost 1 social group ?", 
   "is_incomplete": 0
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q4052218", 
    "Q827424", 
    "Q15444128", 
@@ -737,7 +737,7 @@
    "Q210223", 
    "Q25653"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q4442824", 
    "Q280710", 
    "Q1444474"
@@ -757,7 +757,7 @@
    "P287"
   ], 
   "count_ques_sub_type": 2, 
-  "entities": [
+  "entities_in_utterance": [
    "Q1088886"
   ], 
   "speaker": "USER", 
@@ -767,11 +767,11 @@
   "is_incomplete": 0
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q11220", 
    "Q54173"
   ], 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(Q1088886,P287,c(Q781132))', u'(Q1088886,P287,c(Q43229))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:2}", 
   "utterance": "2", 
@@ -788,14 +788,14 @@
    "P532"
   ], 
   "count_ques_sub_type": 3, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "signature": "{N:1}@{count_ques_sub_type:3}@{count_ques_type:1}@{description:Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Single entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q515}@{prop_res:P532}@{qualifier_choice:atleast}@{ques_type_id:7}@{relations:[u'P532']}@{speaker:USER}@{sub_par:Q2235308}@{utterance:What are the port of registry of atleast 1 ship type ?}", 
   "count_ques_type": 1, 
   "utterance": "What are the port of registry of atleast 1 ship type ?", 
   "is_incomplete": 0
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q1773", 
    "Q23482", 
    "Q1410", 
@@ -803,7 +803,7 @@
    "Q606212", 
    "Q3857"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1773", 
    "Q23482", 
    "Q2706"
@@ -824,19 +824,19 @@
    "P520"
   ], 
   "count_ques_sub_type": 4, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "USER", 
   "signature": "{N:17}@{count_ques_sub_type:4}@{count_ques_type:1}@{description:Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Mult. entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q153556}@{prop_res:P520}@{qualifier_choice:atleast}@{ques_type_id:8}@{relations:[u'P520']}@{set_op:2}@{speaker:USER}@{sub_par_1:Q2235308}@{sub_par_2:Q1875621}@{utterance:Which ranged weapons are used as weapons by atleast 17 ship types or aircraft classes ?}", 
   "is_incomplete": 0, 
   "utterance": "Which ranged weapons are used as weapons by atleast 17 ship types or aircraft classes ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q14911695", 
    "Q1194008", 
    "Q1087978"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q14911695", 
    "Q1194008", 
    "Q1087978"

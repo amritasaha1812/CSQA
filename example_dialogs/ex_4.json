@@ -5,7 +5,7 @@
   "relations": [
    "P136"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q3521323"
   ], 
   "speaker": "USER", 
@@ -13,10 +13,10 @@
   "utterance": "What can be considered as category for The House of 72 Tenants ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q859369"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q859369"
   ], 
   "speaker": "SYSTEM", 
@@ -35,17 +35,17 @@
    "P135"
   ], 
   "count_ques_sub_type": 3, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "USER", 
   "signature": "{count_ques_sub_type:3}@{count_ques_type:1}@{description:Quantitative|Min/Max|Mult. entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q483394}@{prop_res:P135}@{qualifier_choice:min}@{ques_type_id:8}@{relations:[u'P135']}@{set_op:2}@{speaker:USER}@{sub_par_1:Q340169}@{sub_par_2:Q3305213}@{utterance:Which genres did min number of medias or paintings belong to}", 
   "is_incomplete": 0, 
   "utterance": "Which genres did min number of medias or paintings belong to"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q1128018"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1128018"
   ], 
   "speaker": "SYSTEM", 
@@ -60,7 +60,7 @@
   "relations": [
    "P135"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q1128018", 
    "Q4909078"
   ], 
@@ -71,8 +71,8 @@
   "description": "Verification|2 entities, one direct and one indirect, object is indirect"
  }, 
  {
-  "ans_list_full": [], 
-  "entities": [], 
+  "all_entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(Q4909078,P135,Q1128018)']}@{entities:[]}@{speaker:SYSTEM}@{utterance:NO}", 
   "utterance": "NO", 
@@ -89,7 +89,7 @@
    "P101"
   ], 
   "count_ques_sub_type": 7, 
-  "entities": [
+  "entities_in_utterance": [
    "Q142714"
   ], 
   "speaker": "USER", 
@@ -98,7 +98,7 @@
   "utterance": "How many genres are the area of approximately the same number of organizations and people as card game ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q142714", 
    "Q678649", 
    "Q482919", 
@@ -134,7 +134,7 @@
    "Q422635", 
    "Q9134"
   ], 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(c(Q43229)|c(Q502895),P101,c(Q483394))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:34}", 
   "utterance": "34", 
@@ -150,7 +150,7 @@
    "P101"
   ], 
   "count_ques_sub_type": 7, 
-  "entities": [
+  "entities_in_utterance": [
    "Q650483"
   ], 
   "speaker": "USER", 
@@ -160,7 +160,7 @@
   "is_incomplete": 1
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q650483", 
    "Q124922", 
    "Q2142888", 
@@ -195,7 +195,7 @@
    "Q737498", 
    "Q678649"
   ], 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(c(Q43229)|c(Q502895),P101,c(Q483394))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:33}", 
   "utterance": "33", 
@@ -210,7 +210,7 @@
   "relations": [
    "P58"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q3521323"
   ], 
   "speaker": "USER", 
@@ -219,10 +219,10 @@
   "utterance": "Who served as the screenwriter for The House of 72 Tenants ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q710875"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q710875"
   ], 
   "speaker": "SYSTEM", 
@@ -239,7 +239,7 @@
   "relations": [
    "P86"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q3521323"
   ], 
   "speaker": "USER", 
@@ -248,10 +248,10 @@
   "utterance": "Who did the compostion for The House of 72 Tenants ?"
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q5490946"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q5490946"
   ], 
   "speaker": "SYSTEM", 
@@ -267,7 +267,7 @@
   "relations": [
    "P27"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q5490946", 
    "Q148"
   ], 
@@ -277,8 +277,8 @@
   "utterance": "Is that person a civilian of People's Republic of China ?"
  }, 
  {
-  "ans_list_full": [], 
-  "entities": [], 
+  "all_entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(Q5490946,P27,Q148)']}@{entities:[]}@{speaker:SYSTEM}@{utterance:YES}", 
   "utterance": "YES", 
@@ -294,14 +294,14 @@
    "P1303"
   ], 
   "count_ques_sub_type": 5, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "signature": "{N:1450}@{count_ques_sub_type:5}@{count_ques_type:1}@{description:Quantitative|Count over Atleast/ Atmost/ Approx. the same/Equal|Single entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q34379}@{prop_res:P1303}@{qualifier_choice:atmost}@{ques_type_id:7}@{relations:[u'P1303']}@{speaker:USER}@{sub_par:Q502895}@{utterance:How many musical instruments are played by atmost 1450 people ?}", 
   "count_ques_type": 1, 
   "utterance": "How many musical instruments are played by atmost 1450 people ?", 
   "is_incomplete": 0
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q80019", 
    "Q201129", 
    "Q173453", 
@@ -363,7 +363,7 @@
    "Q213100", 
    "Q963150"
   ], 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "speaker": "SYSTEM", 
   "signature": "{active_set:[u'(c(Q502895),P1303,c(Q34379))']}@{entities:[]}@{speaker:SYSTEM}@{utterance:60}", 
   "utterance": "60", 
@@ -379,17 +379,17 @@
    "P1303"
   ], 
   "count_ques_sub_type": 2, 
-  "entities": [], 
+  "entities_in_utterance": [], 
   "signature": "{count_ques_sub_type:2}@{count_ques_type:1}@{description:Quantitative|Min/Max|Single entity type}@{entities:[]}@{is_incomplete:0}@{obj_par:Q34379}@{prop_res:P1303}@{qualifier_choice:max}@{ques_type_id:7}@{relations:[u'P1303']}@{speaker:USER}@{sub_par:Q502895}@{utterance:Which musical instruments do max number of people know to play ?}", 
   "count_ques_type": 1, 
   "utterance": "Which musical instruments do max number of people know to play ?", 
   "is_incomplete": 0
  }, 
  {
-  "ans_list_full": [
+  "all_entities": [
    "Q5994"
   ], 
-  "entities": [
+  "entities_in_utterance": [
    "Q5994"
   ], 
   "speaker": "SYSTEM", 
