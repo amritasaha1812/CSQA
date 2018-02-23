@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 ---
 The dataset can be downloaded in .zip format at the link below: <br>
-[download link](https://drive.google.com/file/d/1nzNVmMp6Z7Co2mM8QTbL04CsJiNtNEyl/view?usp=sharing) <br>
+[download link](https://drive.google.com/file/d/1VGOJDEsD2zPxtFMaex0n40V30rAG9Ugm/view?usp=sharing) <br>
 The wikidata jsons (in pre-processed format) can be downloaded [here](https://drive.google.com/open?id=1D5gyOpWjLUShXZUDW60OgWbWbqZlBLWF)
 
 ### **Information About Different Json Files Used In Pre-processing**
