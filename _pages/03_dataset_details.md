@@ -25,21 +25,21 @@ set_op_choice=3: Difference
 <dt>ques_type_id=5
 Boolean (Factual Verification) question 
 bool_ques_type = 1
-Verification|2 entities, both direct 
+Verification | 2 entities, both direct 
 bool_ques_type = 2
-Verification|2 entities, one direct and one indirect, subject is indirect 
+Verification | 2 entities, one direct and one indirect, subject is indirect 
 bool_ques_type = 3
-Verification|2 entities, one direct and one indirect, object is indirect 
+Verification | 2 entities, one direct and one indirect, object is indirect 
 bool_ques_type = 4
-Verification|3 entities, all direct, 2 are query entities 
+Verification | 3 entities, all direct, 2 are query entities 
 bool_ques_type = 5
-Verification|3 entities, 2 direct, 2(direct) are query entities, subject is indirect 
+Verification | 3 entities, 2 direct, 2(direct) are query entities, subject is indirect 
 bool_ques_type = 6
-Verification|one entity, multiple entities (as object) referred indirectly 
+Verification | one entity, multiple entities (as object) referred indirectly 
 <dt>ques_type_id=6
 Incomplete question (for secondary) 
 inc_ques_type=1
-Incomplete|object parent is changed, subject and predicate remain same 
+Incomplete | object parent is changed, subject and predicate remain same 
 inc_ques_type=2
 Only subject is changed, parent and predicate remains same 
 inc_ques_type=3
@@ -147,17 +147,17 @@ Comparative Indirect (more/less) multiple entity (which)
 <dd>Boolean (Factual Verification) question
 <dl>
 <dt>bool_ques_type = 1</dt>
-<dd>Verification|2 entities, both direct </dd>
+<dd>Verification | 2 entities, both direct </dd>
 <dt>bool_ques_type = 2</dt>
-<dd>Verification|2 entities, one direct and one indirect, subject is indirect </dd>
+<dd>Verification | 2 entities, one direct and one indirect, subject is indirect </dd>
 <dt>bool_ques_type = 3</dt>
-<dd>Verification|2 entities, one direct and one indirect, object is indirect </dd>
+<dd>Verification | 2 entities, one direct and one indirect, object is indirect </dd>
 <dt>bool_ques_type = 4</dt>
-<dd>Verification|3 entities, all direct, 2 are query entities </dd>
+<dd>Verification | 3 entities, all direct, 2 are query entities </dd>
 <dt>bool_ques_type = 5</dt>
-<dd>Verification|3 entities, 2 direct, 2(direct) are query entities, subject is indirect </dd>
+<dd>Verification | 3 entities, 2 direct, 2(direct) are query entities, subject is indirect </dd>
 <dt>bool_ques_type = 6</dt>
-<dd>Verification|one entity, multiple entities (as object) referred indirectly </dd>
+<dd>Verification | one entity, multiple entities (as object) referred indirectly </dd>
 </dl>
 </dd>
 
@@ -166,7 +166,7 @@ Comparative Indirect (more/less) multiple entity (which)
 
 <dl>
 <dt>inc_ques_type=1</dt>
-<dd>Incomplete|object parent is changed, subject and predicate remain same </dd>
+<dd>Incomplete | object parent is changed, subject and predicate remain same </dd>
 <dt>inc_ques_type=2</dt>
 <dd>Only subject is changed, parent and predicate remains same </dd>
 <dt>inc_ques_type=3</dt>
@@ -290,12 +290,12 @@ Comparative Indirect (more/less) multiple entity (which)
   </tr>
   <tr>
     <td class="tg-031e">ques_type_id=5<br>Boolean (Factual Verification) question</td>
-    <td class="tg-031e">bool_ques_type = 1<br>Verification|2 entities, both direct<br><br>bool_ques_type = 2<br>Verification|2 entities, one direct and one indirect, subject is indirect<br><br>bool_ques_type = 3<br>Verification|2 entities, one direct and one indirect, object is indirect<br><br>bool_ques_type = 4<br>Verification|3 entities, all direct, 2 are query entities<br><br>bool_ques_type = 5<br>Verification|3 entities, 2 direct, 2(direct) are query entities, subject is indirect<br><br>bool_ques_type = 6<br>Verification|one entity, multiple entities (as object) referred indirectly</td>
+    <td class="tg-031e">bool_ques_type = 1<br>Verification | 2 entities, both direct<br><br>bool_ques_type = 2<br>Verification | 2 entities, one direct and one indirect, subject is indirect<br><br>bool_ques_type = 3<br>Verification | 2 entities, one direct and one indirect, object is indirect<br><br>bool_ques_type = 4<br>Verification | 3 entities, all direct, 2 are query entities<br><br>bool_ques_type = 5<br>Verification | 3 entities, 2 direct, 2(direct) are query entities, subject is indirect<br><br>bool_ques_type = 6<br>Verification | one entity, multiple entities (as object) referred indirectly</td>
     <td class="tg-031e"></td>
   </tr>
   <tr>
     <td class="tg-031e">ques_type_id=6<br>Incomplete question (for secondary)</td>
-    <td class="tg-031e">inc_ques_type=1<br>Incomplete|object parent is changed, subject and predicate remain same<br><br>inc_ques_type=2<br>Only subject is changed, parent and predicate remains same<br><br>inc_ques_type=3<br>Incomplete count-based ques</td>
+    <td class="tg-031e">inc_ques_type=1<br>Incomplete | object parent is changed, subject and predicate remain same<br><br>inc_ques_type=2<br>Only subject is changed, parent and predicate remains same<br><br>inc_ques_type=3<br>Incomplete count-based ques</td>
     <td class="tg-031e"></td>
   </tr>
   <tr>
@@ -318,46 +318,283 @@ Comparative Indirect (more/less) multiple entity (which)
 
 ### Dataset statistics (Number of QA pairs for each question type)
 
-| ﻿Question Type                                                                                            | Train  | Valid | Test  | 
-|----------------------------------------------------------------------------------------------------------|--------|-------|-------|
-| Simple&#124;Direct                                                                                       | 446,927 | 47,868 | 74,800 | 
-| Simple&#124;Indirect                                                                                     | 285,825 | 30,397 | 49,993 | 
-| Simple&#124;Incomplete                                                                                   | 54,711  | 5,913  | 8,664  | 
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Direct                                 | 37,090  | 4,199  | 6,591  |
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Indirect                               | 8,090   | 858   | 1,427 |
-| Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Incomplete                             | 15,260  | 1,747  | 2,448  |
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Direct                                | 42,930  | 4,629  | 4,472  |
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Indirect                              | 9,793   | 1,020  | 1,222  | 
-| Comparative&#124;Count over More/Less&#124;Single entity type&#124;Incomplete                            | 17450  | 1885  | 1277  | 
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Direct                                            | 37784  | 3995  | 6677  | 
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Indirect                                          | 8161   | 899   | 1340  | 
-| Comparative&#124;More/Less&#124;Mult. entity type&#124;Incomplete                                        | 15598  | 1626  | 2449  | 
-| Comparative&#124;More/Less&#124;Single entity type&#124;Direct                                           | 43529  | 4639  | 4376  |
-| Comparative&#124;More/Less&#124;Single entity type&#124;Indirect                                         | 9786   | 1082  | 1286  |
-| Comparative&#124;More/Less&#124;Single entity type&#124;Incomplete                                       | 17781  | 1887  | 1228  | 
-| Logical&#124;Union&#124;Direct                                                                           | 30267  | 3347  | 5656  | 
-| Logical&#124;Intersection&#124;Direct                                                                    | 21151  | 2293  | 4086  |
-| Logical&#124;Difference&#124;Direct                                                                      | 1497   | 166   | 298   |
-| Logical&#124;Incomplete                                                                                  | 4909   | 533   | 1083  |
-| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct             | 25484  | 2674  | 4409  | 
-| Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct            | 31668  | 3439  | 2395  | 
-| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct  | 25210  | 2693  | 4367  | 
-| Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct | 31121  | 3366  | 2323  | 
-| Quantitative&#124;Count&#124;Logical operators&#124;Direct                                               | 25731  | 2661  | 4001  |
-| Quantitative&#124;Count&#124;Logical operators&#124;Indirect                                             | 9350   | 998   | 1621  | 
-| Quantitative&#124;Count&#124;Mult. entity type&#124;Direct                                               | 29420  | 3150  | 4925  |
-| Quantitative&#124;Count&#124;Single entity type&#124;Direct                                              | 64225  | 6761  | 8318  | 
-| Quantitative&#124;Count&#124;Single entity type&#124;Indirect                                            | 15690  | 1645  | 2194  |
-| Quantitative&#124;Count&#124;Single entity type&#124;Incomplete                                          | 26472  | 2752  | 3348  |
-| Verification&#124;Single/Multiple Entity&#124;Direct                                                     | 66550  | 7101  | 13879 |
-| Verification&#124;Single/Multiple Entity&#124;Indirect                                                   | 91061  | 9965  | 17003 |
-| Clarification (All)                                                                                      | 62825  | 6761  | 9348  |
-| Indirect (All)                                                                                           | 412716 | 44221 | 72271 |
-| Incomplete (All)                                                                                         | 176284 | 18926 | 23453 |
-| Logical&#124;Multiple Relations&#124;Direct                                                              | 29537  | 3209  | 5463  |
-| Quantitative&#124;Min/Max&#124;Single entity type                                                        | 33580  | 3664  | 304   |
-| Quantitative&#124;Min/Max&#124;Mult. entity type                                                         | 25363  | 2725  | 2813  |
+<!--  |  ﻿Question Type                                                                                             |  Train   |  Valid  |  Test   |  
+ | ---------------------------------------------------------------------------------------------------------- | -------- | ------- | ------- | 
+ |  Simple&#124;Direct                                                                                        |  446,927  |  47,868  |  74,800  |  
+ |  Simple&#124;Indirect                                                                                      |  285,825  |  30,397  |  49,993  |  
+ |  Simple&#124;Incomplete                                                                                    |  54,711   |  5,913   |  8,664   |  
+ |  Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Direct                                  |  37,090   |  4,199   |  6,591   | 
+ |  Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Indirect                                |  8,090    |  858    |  1,427  | 
+ |  Comparative&#124;Count over More/Less&#124;Mult. entity type&#124;Incomplete                              |  15,260   |  1,747   |  2,448   | 
+ |  Comparative&#124;Count over More/Less&#124;Single entity type&#124;Direct                                 |  42,930   |  4,629   |  4,472   | 
+ |  Comparative&#124;Count over More/Less&#124;Single entity type&#124;Indirect                               |  9,793    |  1,020   |  1,222   |  
+ |  Comparative&#124;Count over More/Less&#124;Single entity type&#124;Incomplete                             |  17450   |  1885   |  1277   |  
+ |  Comparative&#124;More/Less&#124;Mult. entity type&#124;Direct                                             |  37784   |  3995   |  6677   |  
+ |  Comparative&#124;More/Less&#124;Mult. entity type&#124;Indirect                                           |  8161    |  899    |  1340   |  
+ |  Comparative&#124;More/Less&#124;Mult. entity type&#124;Incomplete                                         |  15598   |  1626   |  2449   |  
+ |  Comparative&#124;More/Less&#124;Single entity type&#124;Direct                                            |  43529   |  4639   |  4376   | 
+ |  Comparative&#124;More/Less&#124;Single entity type&#124;Indirect                                          |  9786    |  1082   |  1286   | 
+ |  Comparative&#124;More/Less&#124;Single entity type&#124;Incomplete                                        |  17781   |  1887   |  1228   |  
+ |  Logical&#124;Union&#124;Direct                                                                            |  30267   |  3347   |  5656   |  
+ |  Logical&#124;Intersection&#124;Direct                                                                     |  21151   |  2293   |  4086   | 
+ |  Logical&#124;Difference&#124;Direct                                                                       |  1497    |  166    |  298    | 
+ |  Logical&#124;Incomplete                                                                                   |  4909    |  533    |  1083   | 
+ |  Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct              |  25484   |  2674   |  4409   |  
+ |  Quantitative&#124;Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct             |  31668   |  3439   |  2395   |  
+ |  Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Mult. entity type&#124;Direct   |  25210   |  2693   |  4367   |  
+ |  Quantitative&#124;Count over Atleast/ Atmost/ Approx. the same/Equal&#124;Single entity type&#124;Direct  |  31121   |  3366   |  2323   |  
+ |  Quantitative&#124;Count&#124;Logical operators&#124;Direct                                                |  25731   |  2661   |  4001   | 
+ |  Quantitative&#124;Count&#124;Logical operators&#124;Indirect                                              |  9350    |  998    |  1621   |  
+ |  Quantitative&#124;Count&#124;Mult. entity type&#124;Direct                                                |  29420   |  3150   |  4925   | 
+ |  Quantitative&#124;Count&#124;Single entity type&#124;Direct                                               |  64225   |  6761   |  8318   |  
+ |  Quantitative&#124;Count&#124;Single entity type&#124;Indirect                                             |  15690   |  1645   |  2194   | 
+ |  Quantitative&#124;Count&#124;Single entity type&#124;Incomplete                                           |  26472   |  2752   |  3348   | 
+ |  Verification&#124;Single/Multiple Entity&#124;Direct                                                      |  66550   |  7101   |  13879  | 
+ |  Verification&#124;Single/Multiple Entity&#124;Indirect                                                    |  91061   |  9965   |  17003  | 
+ |  Clarification (All)                                                                                       |  62825   |  6761   |  9348   | 
+ |  Indirect (All)                                                                                            |  412716  |  44221  |  72271  | 
+ |  Incomplete (All)                                                                                          |  176284  |  18926  |  23453  | 
+ |  Logical&#124;Multiple Relations&#124;Direct                                                               |  29537   |  3209   |  5463   | 
+ |  Quantitative&#124;Min/Max&#124;Single entity type                                                         |  33580   |  3664   |  304    | 
+ |  Quantitative&#124;Min/Max&#124;Mult. entity type                                                          |  25363   |  2725   |  2813   | 
+ -->
 
+ <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">Question Type</th>
+    <th class="tg-yw4l">Train</th>
+    <th class="tg-yw4l">Valid</th>
+    <th class="tg-yw4l">Test</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Simple | Direct</td>
+    <td class="tg-yw4l">459393</td>
+    <td class="tg-yw4l">49565</td>
+    <td class="tg-yw4l">77569</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Simple | Indirect</td>
+    <td class="tg-yw4l">295416</td>
+    <td class="tg-yw4l">31719</td>
+    <td class="tg-yw4l">52225</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Simple | Incomplete</td>
+    <td class="tg-yw4l">58209</td>
+    <td class="tg-yw4l">6408</td>
+    <td class="tg-yw4l">9418</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Direct</td>
+    <td class="tg-yw4l">34868</td>
+    <td class="tg-yw4l">3860</td>
+    <td class="tg-yw4l">6569</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Indirect</td>
+    <td class="tg-yw4l">7399</td>
+    <td class="tg-yw4l">840</td>
+    <td class="tg-yw4l">1267</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Incomplete</td>
+    <td class="tg-yw4l">14288</td>
+    <td class="tg-yw4l">1573</td>
+    <td class="tg-yw4l">2724</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Direct</td>
+    <td class="tg-yw4l">45266</td>
+    <td class="tg-yw4l">4785</td>
+    <td class="tg-yw4l">4495</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Indirect</td>
+    <td class="tg-yw4l">8793</td>
+    <td class="tg-yw4l">950</td>
+    <td class="tg-yw4l">950</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Incomplete</td>
+    <td class="tg-yw4l">18238</td>
+    <td class="tg-yw4l">1939</td>
+    <td class="tg-yw4l">1624</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Direct</td>
+    <td class="tg-yw4l">34978</td>
+    <td class="tg-yw4l">3787</td>
+    <td class="tg-yw4l">6659</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Indirect</td>
+    <td class="tg-yw4l">7416</td>
+    <td class="tg-yw4l">783</td>
+    <td class="tg-yw4l">1247</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Incomplete</td>
+    <td class="tg-yw4l">14368</td>
+    <td class="tg-yw4l">1564</td>
+    <td class="tg-yw4l">2717</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Direct</td>
+    <td class="tg-yw4l">44408</td>
+    <td class="tg-yw4l">4871</td>
+    <td class="tg-yw4l">4654</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Indirect</td>
+    <td class="tg-yw4l">8778</td>
+    <td class="tg-yw4l">996</td>
+    <td class="tg-yw4l">977</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Incomplete</td>
+    <td class="tg-yw4l">17904</td>
+    <td class="tg-yw4l">1959</td>
+    <td class="tg-yw4l">1703</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Logical | Union | Direct</td>
+    <td class="tg-yw4l">69805</td>
+    <td class="tg-yw4l">7437</td>
+    <td class="tg-yw4l">13805</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Logical | Intersection | Direct</td>
+    <td class="tg-yw4l">45507</td>
+    <td class="tg-yw4l">4798</td>
+    <td class="tg-yw4l">8110</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Logical | Difference | Direct</td>
+    <td class="tg-yw4l">4885</td>
+    <td class="tg-yw4l">466</td>
+    <td class="tg-yw4l">853</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Logical | Incomplete</td>
+    <td class="tg-yw4l">7805</td>
+    <td class="tg-yw4l">863</td>
+    <td class="tg-yw4l">2045</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Atleast/ Atmost/ Approx. the same/Equal | Mult. entity type | Direct</td>
+    <td class="tg-yw4l">20434</td>
+    <td class="tg-yw4l">2218</td>
+    <td class="tg-yw4l">3504</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Atleast/ Atmost/ Approx. the same/Equal | Single entity type | Direct</td>
+    <td class="tg-yw4l">26409</td>
+    <td class="tg-yw4l">2836</td>
+    <td class="tg-yw4l">2046</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count over Atleast/ Atmost/ Approx. the same/Equal | Mult. entity type | Direct</td>
+    <td class="tg-yw4l">20433</td>
+    <td class="tg-yw4l">2272</td>
+    <td class="tg-yw4l">3450</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count over Atleast/ Atmost/ Approx. the same/Equal | Single entity type | Direct</td>
+    <td class="tg-yw4l">26511</td>
+    <td class="tg-yw4l">2864</td>
+    <td class="tg-yw4l">1973</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Logical operators | Direct</td>
+    <td class="tg-yw4l">20789</td>
+    <td class="tg-yw4l">2233</td>
+    <td class="tg-yw4l">3241</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Logical operators | Indirect</td>
+    <td class="tg-yw4l">9890</td>
+    <td class="tg-yw4l">1002</td>
+    <td class="tg-yw4l">1687</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Mult. entity type | Direct</td>
+    <td class="tg-yw4l">23727</td>
+    <td class="tg-yw4l">2465</td>
+    <td class="tg-yw4l">4050</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Single entity type | Direct</td>
+    <td class="tg-yw4l">51443</td>
+    <td class="tg-yw4l">5426</td>
+    <td class="tg-yw4l">7220</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Single entity type | Indirect</td>
+    <td class="tg-yw4l">14815</td>
+    <td class="tg-yw4l">1527</td>
+    <td class="tg-yw4l">2129</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Count | Single entity type | Incomplete</td>
+    <td class="tg-yw4l">21153</td>
+    <td class="tg-yw4l">2217</td>
+    <td class="tg-yw4l">2919</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Verification | Single/Multiple Entity | Direct</td>
+    <td class="tg-yw4l">47175</td>
+    <td class="tg-yw4l">5095</td>
+    <td class="tg-yw4l">9889</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Verification | Single/Multiple Entity | Indirect</td>
+    <td class="tg-yw4l">82332</td>
+    <td class="tg-yw4l">8755</td>
+    <td class="tg-yw4l">16094</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Clarification (All)</td>
+    <td class="tg-yw4l">75944</td>
+    <td class="tg-yw4l">8122</td>
+    <td class="tg-yw4l">11029</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Indirect (All)</td>
+    <td class="tg-yw4l">410134</td>
+    <td class="tg-yw4l">44043</td>
+    <td class="tg-yw4l">72760</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Incomplete (All)</td>
+    <td class="tg-yw4l">171566</td>
+    <td class="tg-yw4l">18646</td>
+    <td class="tg-yw4l">25794</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Logical | Multiple Relations | Direct</td>
+    <td class="tg-yw4l">49075</td>
+    <td class="tg-yw4l">5179</td>
+    <td class="tg-yw4l">9029</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Min/Max | Single entity type</td>
+    <td class="tg-yw4l">28180</td>
+    <td class="tg-yw4l">3008</td>
+    <td class="tg-yw4l">302</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">Quantitative | Min/Max | Mult. entity type</td>
+    <td class="tg-yw4l">20451</td>
+    <td class="tg-yw4l">2195</td>
+    <td class="tg-yw4l">2358</td>
+  </tr>
+</table>
 ### Types of questions in the dataset
 
 <style type="text/css">
@@ -461,12 +698,12 @@ Comparative Indirect (more/less) multiple entity (which)
 
 ### Overall Dataset Statistics
 
-| Dataset Statistics                             | Train  | Valid | Test  |
-|------------------------------------------------|--------|-------|-------|
-| Total No. of Dialogs(chat sessions)            | 152391 | 16413 | 27797 |
-| Avg. No. of Utterances per dialog              | 15.9   | 15.65 | 19.44 |
-| Total No. of Utterances having Question/Answer | 1.2M   | .13M  | .27M  |
-| Length of user’s question (in words)           | 9.7    | 9.68  | 10.28 |
-| Length of system’s response (in words)         | 4.74   | 4.67  | 4.37  |
-| Avg. No. of Dialog states per dialog           | 3.89   | 3.84  | 4.53  |
-| Vocab size (freq>=10)                          | 0.1M   | -     | -     |
+ |  Dataset Statistics                              |  Train   |  Valid  |  Test   | 
+ | ------------------------------------------------ | -------- | ------- | ------- | 
+ |  Total No. of Dialogs(chat sessions)             |  152391  |  16413  |  27797  | 
+ |  Avg. No. of Utterances per dialog               |  15.9    |  15.65  |  19.44  | 
+ |  Total No. of Utterances having Question/Answer  |  1.2M    |  .13M   |  .27M   | 
+ |  Length of user’s question (in words)            |  9.7     |  9.68   |  10.28  | 
+ |  Length of system’s response (in words)          |  4.74    |  4.67   |  4.37   | 
+ |  Avg. No. of Dialog states per dialog            |  3.89    |  3.84   |  4.53   | 
+ |  Vocab size (freq>=10)                           |  0.1M    |  -      |  -      | 
