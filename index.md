@@ -52,6 +52,7 @@ Eprint = {arXiv:1801.10314},<br/>
 Please [Click here]({{site.baseurl}}/download/) to download the dataset.
 
 _**NEW**_: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 6, 2018__). <br>
+
 ---
 ### Two-Fold Challenges of this Dataset
 
