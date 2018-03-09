@@ -43,44 +43,45 @@
 
       $(function() {
 
-       $.getJSON('../example_dialogs/ex_1.json', function(data) {
-           $.each(data, function(i, f) {
-            if (i<2)
-            {
-            for (key in f)
-            {
-              if (key == "ques_type_id")
-                desc = "ID corresponding to the question utterance"
-              else if (key == "description")
-                desc = "Description of type of question"
-              else if (key == "relations")
-                desc = "ID's of predicates used in the utterance"
-              else if (key == "entities_in_utterance")
-                desc = "ID's of entities used in the question"
-              else if (key == "speaker")
-                desc = "The nature of speaker: SYSTEM or USER"
-              else if (key == "signature")
-                desc = "A string which uniquely identifies the question"
-              else if (key == "utterance")
-                desc = "The utterance: either the question, clarification or response"
-              // else if (key == 'active_set')
-              //   desc = "A regex which identifies the entity set of answer list"
-              else if (key == 'all_entities')
-                desc = "list of ALL entities which constitute the answer of the question"
-              else
-                desc = ""
-              if (desc != "")
-              {
-              var tblRow = "<tr>" + "<td>" + "<b>" + key + "</b>: " + f[key] + " <em> (" + desc + ") </em>" + "</td>" + "</tr>"
-               $(tblRow).appendTo("#userdata_1 tbody");
-              }
-            }
-            var tblRow = "<hr>"
-              $(tblRow).appendTo("#userdata_1 tbody");
-           }
-         });
+       // $.getJSON('../example_dialogs/ex_1.json', function(data) {
+       //     $.each(data, function(i, f) {
+       //      if (i<2)
+       //      {
+       //      for (key in f)
+       //      {
+       //        if (key == "ques_type_id")
+       //          desc = "ID corresponding to the question utterance"
+       //        else if (key == "description")
+       //          desc = "Description of type of question"
+       //        else if (key == "relations")
+       //          desc = "ID's of predicates used in the utterance"
+       //        else if (key == "entities_in_utterance")
+       //          desc = "ID's of entities used in the question"
+       //        else if (key == "speaker")
+       //          desc = "The nature of speaker: SYSTEM or USER"
+       //        else if (key == "signature")
+       //          desc = "A string which uniquely identifies the question"
+       //        else if (key == "utterance")
+       //          desc = "The utterance: either the question, clarification or response"
+       //        // else if (key == 'active_set')
+       //        //   desc = "A regex which identifies the entity set of answer list"
+       //        else if (key == 'all_entities')
+       //          desc = "list of ALL entities which constitute the answer of the question"
+       //        else
+       //          desc = ""
+       //        if (desc != "")
+       //        {
+       //        var tblRow = "<tr>" + "<td>" + "<b>" + key + "</b>: " + f[key] + " <em> (" + desc + ") </em>" + "</td>" + "</tr>"
+       //         $(tblRow).appendTo("#userdata_1 tbody");
+       //        }
+       //      }
+       //      var tblRow = "<hr>"
+       //        $(tblRow).appendTo("#userdata_1 tbody");
+       //     }
+       //   });
 
-       });
+       // });
+
 
         $.getJSON('../example_dialogs/ex_2.json', function(data) {
            $.each(data, function(i, f) {
@@ -140,11 +141,26 @@
     <h4> Description of fields in JSON </h4>
     <div class="wrapper">
     <div class="profile">
-    <table id= "userdata_1" border="2">
+<!--     <table id= "userdata_1" border="2">
       <tbody>
 
       </tbody>
-    </table>
+    </table> -->
+    <ul>
+
+    <li> <b>ques_type_id</b>: ID corresponding to the question utterance </li> 
+    <li> <b>description</b>: Description of type of question </li> 
+    <li> <b>relations</b>: ID's of predicates used in the utterance </li> 
+    <li> <b>entities_in_utterance</b>: ID's of entities used in the question </li> 
+    <li> <b>speaker</b>: The nature of speaker: SYSTEM or USER </li> 
+    <li> <b>utterance</b>: The utterance: either the question, clarification or response </li> 
+    <li> <b>active_set</b>: A regular expression which identifies the entity set of answer list </li> 
+    <li> <b>all_entities</b>: List of ALL entities which constitute the answer of the question </li> 
+    <li> <b>question-type</b>: Type of question (broad types used for evaluation as in Table-4 of paper)</li>
+    <li> <b>type_list</b>: List containing entity IDs of all entity parents used in the question </li>
+
+    </ul>
+
     <br>
 
     <button type="button" class="btn btn-info collapsed" data-toggle="collapse" data-target="#userdata_2">Example 1</button> <br>
