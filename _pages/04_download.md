@@ -4,10 +4,10 @@ title: Download
 permalink: /download/
 ---
 The dataset can be downloaded in .zip format at the link below: <br>
-[Dialog zip link](https://drive.google.com/file/d/1Gab67sGrU1Nrdpi54-Py1OpJ_9szBjzj/view?usp=sharing) <br>
+[Dialog zip link](https://drive.google.com/file/d/13N0WU43p1GdjT02dNyYx0XkUQw3catDS/view?usp=sharing) <br>
 The wikidata jsons (in pre-processed format) can be downloaded [here](https://drive.google.com/drive/folders/1ITcgvp4vZo1Wlb66d_SnHvVmLKIqqYbR?usp=sharing)
 
-_**NEW**_: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 6, 2018__). <br>
+_**NEW**_: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 9, 2018__). <br>
 
 ### **Information About Different Json Files Used In Pre-processing**
 
