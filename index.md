@@ -49,7 +49,9 @@ Eprint = {arXiv:1801.10314},<br/>
 ---
 **DATASET**
 
-Please [Click here]({{site.baseurl}}/download/) to download the dataset.
+Please [click here]({{site.baseurl}}/download/) to download the dataset.<br>
+
+_**NEW**_: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
 
 _**NEW**_: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 6, 2018__). <br>
 
