@@ -359,340 +359,240 @@ Comparative Indirect (more/less) multiple entity (which)
  |  Quantitative&#124;Min/Max&#124;Mult. entity type                                                          |  25363   |  2725   |  2813   | 
  -->
 
- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-yw4l{vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-yw4l">Question Type</th>
-    <th class="tg-yw4l">Train</th>
-    <th class="tg-yw4l">Valid</th>
-    <th class="tg-yw4l">Test</th>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Simple | Direct</td>
-    <td class="tg-yw4l">459393</td>
-    <td class="tg-yw4l">49565</td>
-    <td class="tg-yw4l">77569</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Simple | Indirect</td>
-    <td class="tg-yw4l">295416</td>
-    <td class="tg-yw4l">31719</td>
-    <td class="tg-yw4l">52225</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Simple | Incomplete</td>
-    <td class="tg-yw4l">58209</td>
-    <td class="tg-yw4l">6408</td>
-    <td class="tg-yw4l">9418</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Direct</td>
-    <td class="tg-yw4l">34868</td>
-    <td class="tg-yw4l">3860</td>
-    <td class="tg-yw4l">6569</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Indirect</td>
-    <td class="tg-yw4l">7399</td>
-    <td class="tg-yw4l">840</td>
-    <td class="tg-yw4l">1267</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Mult. entity type | Incomplete</td>
-    <td class="tg-yw4l">14288</td>
-    <td class="tg-yw4l">1573</td>
-    <td class="tg-yw4l">2724</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Direct</td>
-    <td class="tg-yw4l">45266</td>
-    <td class="tg-yw4l">4785</td>
-    <td class="tg-yw4l">4495</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Indirect</td>
-    <td class="tg-yw4l">8793</td>
-    <td class="tg-yw4l">950</td>
-    <td class="tg-yw4l">950</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | Count over More/Less | Single entity type | Incomplete</td>
-    <td class="tg-yw4l">18238</td>
-    <td class="tg-yw4l">1939</td>
-    <td class="tg-yw4l">1624</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Direct</td>
-    <td class="tg-yw4l">34978</td>
-    <td class="tg-yw4l">3787</td>
-    <td class="tg-yw4l">6659</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Indirect</td>
-    <td class="tg-yw4l">7416</td>
-    <td class="tg-yw4l">783</td>
-    <td class="tg-yw4l">1247</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Mult. entity type | Incomplete</td>
-    <td class="tg-yw4l">14368</td>
-    <td class="tg-yw4l">1564</td>
-    <td class="tg-yw4l">2717</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Direct</td>
-    <td class="tg-yw4l">44408</td>
-    <td class="tg-yw4l">4871</td>
-    <td class="tg-yw4l">4654</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Indirect</td>
-    <td class="tg-yw4l">8778</td>
-    <td class="tg-yw4l">996</td>
-    <td class="tg-yw4l">977</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Comparative | More/Less | Single entity type | Incomplete</td>
-    <td class="tg-yw4l">17904</td>
-    <td class="tg-yw4l">1959</td>
-    <td class="tg-yw4l">1703</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Logical | Union | Direct</td>
-    <td class="tg-yw4l">69805</td>
-    <td class="tg-yw4l">7437</td>
-    <td class="tg-yw4l">13805</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Logical | Intersection | Direct</td>
-    <td class="tg-yw4l">45507</td>
-    <td class="tg-yw4l">4798</td>
-    <td class="tg-yw4l">8110</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Logical | Difference | Direct</td>
-    <td class="tg-yw4l">4885</td>
-    <td class="tg-yw4l">466</td>
-    <td class="tg-yw4l">853</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Logical | Incomplete</td>
-    <td class="tg-yw4l">7805</td>
-    <td class="tg-yw4l">863</td>
-    <td class="tg-yw4l">2045</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Atleast/ Atmost/ Approx. the same/Equal | Mult. entity type | Direct</td>
-    <td class="tg-yw4l">20434</td>
-    <td class="tg-yw4l">2218</td>
-    <td class="tg-yw4l">3504</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Atleast/ Atmost/ Approx. the same/Equal | Single entity type | Direct</td>
-    <td class="tg-yw4l">26409</td>
-    <td class="tg-yw4l">2836</td>
-    <td class="tg-yw4l">2046</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count over Atleast/ Atmost/ Approx. the same/Equal | Mult. entity type | Direct</td>
-    <td class="tg-yw4l">20433</td>
-    <td class="tg-yw4l">2272</td>
-    <td class="tg-yw4l">3450</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count over Atleast/ Atmost/ Approx. the same/Equal | Single entity type | Direct</td>
-    <td class="tg-yw4l">26511</td>
-    <td class="tg-yw4l">2864</td>
-    <td class="tg-yw4l">1973</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Logical operators | Direct</td>
-    <td class="tg-yw4l">20789</td>
-    <td class="tg-yw4l">2233</td>
-    <td class="tg-yw4l">3241</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Logical operators | Indirect</td>
-    <td class="tg-yw4l">9890</td>
-    <td class="tg-yw4l">1002</td>
-    <td class="tg-yw4l">1687</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Mult. entity type | Direct</td>
-    <td class="tg-yw4l">23727</td>
-    <td class="tg-yw4l">2465</td>
-    <td class="tg-yw4l">4050</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Single entity type | Direct</td>
-    <td class="tg-yw4l">51443</td>
-    <td class="tg-yw4l">5426</td>
-    <td class="tg-yw4l">7220</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Single entity type | Indirect</td>
-    <td class="tg-yw4l">14815</td>
-    <td class="tg-yw4l">1527</td>
-    <td class="tg-yw4l">2129</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Count | Single entity type | Incomplete</td>
-    <td class="tg-yw4l">21153</td>
-    <td class="tg-yw4l">2217</td>
-    <td class="tg-yw4l">2919</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Verification | Single/Multiple Entity | Direct</td>
-    <td class="tg-yw4l">47175</td>
-    <td class="tg-yw4l">5095</td>
-    <td class="tg-yw4l">9889</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Verification | Single/Multiple Entity | Indirect</td>
-    <td class="tg-yw4l">82332</td>
-    <td class="tg-yw4l">8755</td>
-    <td class="tg-yw4l">16094</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Clarification (All)</td>
-    <td class="tg-yw4l">75944</td>
-    <td class="tg-yw4l">8122</td>
-    <td class="tg-yw4l">11029</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Indirect (All)</td>
-    <td class="tg-yw4l">410134</td>
-    <td class="tg-yw4l">44043</td>
-    <td class="tg-yw4l">72760</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Incomplete (All)</td>
-    <td class="tg-yw4l">171566</td>
-    <td class="tg-yw4l">18646</td>
-    <td class="tg-yw4l">25794</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Logical | Multiple Relations | Direct</td>
-    <td class="tg-yw4l">49075</td>
-    <td class="tg-yw4l">5179</td>
-    <td class="tg-yw4l">9029</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Min/Max | Single entity type</td>
-    <td class="tg-yw4l">28180</td>
-    <td class="tg-yw4l">3008</td>
-    <td class="tg-yw4l">302</td>
-  </tr>
-  <tr>
-    <td class="tg-yw4l">Quantitative | Min/Max | Mult. entity type</td>
-    <td class="tg-yw4l">20451</td>
-    <td class="tg-yw4l">2195</td>
-    <td class="tg-yw4l">2358</td>
-  </tr>
-</table>
-### Types of questions in the dataset
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-us36{border-color:inherit;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-031e">Reasoning</th>
-    <th class="tg-031e">Type</th>
-    <th class="tg-031e">Containing</th>
-    <th class="tg-031e">Example</th>
+    <th class="tg-us36">Question Type</th>
+    <th class="tg-us36">Train</th>
+    <th class="tg-us36">Valid</th>
+    <th class="tg-us36">Test</th>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="4">Logical</td>
-    <td class="tg-031e">Union</td>
-    <td class="tg-031e" rowspan="3">Single Relation</td>
-    <td class="tg-031e">Which rivers flow through India or China?</td>
+    <td class="tg-us36">Simple|Direct</td>
+    <td class="tg-us36">465184</td>
+    <td class="tg-us36">52189</td>
+    <td class="tg-us36">81994</td>
   </tr>
   <tr>
-    <td class="tg-031e">Intersection</td>
-    <td class="tg-031e">Which rivers flow through India and China?</td>
+    <td class="tg-us36">Simple|Indirect</td>
+    <td class="tg-us36">293692</td>
+    <td class="tg-us36">32877</td>
+    <td class="tg-us36">54854</td>
   </tr>
   <tr>
-    <td class="tg-031e">Difference</td>
-    <td class="tg-031e">Which rivers flow through India but not China?</td>
+    <td class="tg-us36">Simple|Incomplete</td>
+    <td class="tg-us36">58627</td>
+    <td class="tg-us36">6658</td>
+    <td class="tg-us36">10045</td>
   </tr>
   <tr>
-    <td class="tg-031e">Any of above</td>
-    <td class="tg-031e">Multiple Relations</td>
-    <td class="tg-031e">Which river flows through India but does not originate in Himalayas?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Mult. entity type|Direct</td>
+    <td class="tg-us36">36658</td>
+    <td class="tg-us36">3791</td>
+    <td class="tg-us36">7711</td>
   </tr>
   <tr>
-    <td class="tg-031e">Verification</td>
-    <td class="tg-031e">Boolean</td>
-    <td class="tg-031e">Single/Multiple<br> Entities</td>
-    <td class="tg-031e">Does Ganga flow through India ?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Mult. entity type|Indirect</td>
+    <td class="tg-us36">7783</td>
+    <td class="tg-us36">808</td>
+    <td class="tg-us36">1177</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="9">Quantitative</td>
-    <td class="tg-031e" rowspan="3">Count</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">How many rivers flow through India ?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Mult. entity type|Incomplete</td>
+    <td class="tg-us36">15137</td>
+    <td class="tg-us36">1564</td>
+    <td class="tg-us36">3249</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">How many rivers and lakes does India have ?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Single entity type|Direct</td>
+    <td class="tg-us36">47682</td>
+    <td class="tg-us36">4738</td>
+    <td class="tg-us36">5224</td>
   </tr>
   <tr>
-    <td class="tg-031e">Logical Operators</td>
-    <td class="tg-031e">How many rivers flow through India and/or/but not China?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Single entity type|Indirect</td>
+    <td class="tg-us36">9100</td>
+    <td class="tg-us36">932</td>
+    <td class="tg-us36">922</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="2">Min/Max</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">Which river flows through maximum number of countries ?</td>
+    <td class="tg-us36">Comparative|Count over More/Less|Single entity type|Incomplete</td>
+    <td class="tg-us36">19324</td>
+    <td class="tg-us36">1929</td>
+    <td class="tg-us36">1972</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">Which country has maximum number of rivers and lakes combined ?</td>
+    <td class="tg-us36">Comparative|More/Less|Mult. entity type|Direct</td>
+    <td class="tg-us36">36538</td>
+    <td class="tg-us36">3711</td>
+    <td class="tg-us36">7655</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="2">Atleast/Atmost/<br>Approx/Equal</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">Which rivers flow through at least N countries ?</td>
+    <td class="tg-us36">Comparative|More/Less|Mult. entity type|Indirect</td>
+    <td class="tg-us36">6797</td>
+    <td class="tg-us36">645</td>
+    <td class="tg-us36">1184</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">Which country has at least N rivers and lakes combined ?</td>
+    <td class="tg-us36">Comparative|More/Less|Mult. entity type|Incomplete</td>
+    <td class="tg-us36">15086</td>
+    <td class="tg-us36">1546</td>
+    <td class="tg-us36">3209</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="2">Count over <br>Atleast/Atmost/<br>Approx/Equal</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">How many rivers flow through at least N countries?</td>
+    <td class="tg-us36">Comparative|More/Less|Single entity type|Direct</td>
+    <td class="tg-us36">47149</td>
+    <td class="tg-us36">4725</td>
+    <td class="tg-us36">5520</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">How many countries have at least N rivers and lakes combined ?</td>
+    <td class="tg-us36">Comparative|More/Less|Single entity type|Indirect</td>
+    <td class="tg-us36">7087</td>
+    <td class="tg-us36">736</td>
+    <td class="tg-us36">925</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="4">Comparative</td>
-    <td class="tg-031e" rowspan="2">More/Less</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">Which countries have more number of rivers than India ?</td>
+    <td class="tg-us36">Comparative|More/Less|Single entity type|Incomplete</td>
+    <td class="tg-us36">19107</td>
+    <td class="tg-us36">1910</td>
+    <td class="tg-us36">2064</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">Which countries have more rivers and lakes than India ?</td>
+    <td class="tg-us36">Logical|Union|Direct</td>
+    <td class="tg-us36">70694</td>
+    <td class="tg-us36">7345</td>
+    <td class="tg-us36">14418</td>
   </tr>
   <tr>
-    <td class="tg-031e" rowspan="2">Count over<br>More/Less</td>
-    <td class="tg-031e">Single Entity Type</td>
-    <td class="tg-031e">How many countries have more number of rivers than India ?</td>
+    <td class="tg-us36">Logical|Intersection|Direct</td>
+    <td class="tg-us36">31205</td>
+    <td class="tg-us36">3278</td>
+    <td class="tg-us36">5708</td>
   </tr>
   <tr>
-    <td class="tg-031e">Mult. Entity Type</td>
-    <td class="tg-031e">How many countries have more rivers and lakes than India ?</td>
+    <td class="tg-us36">Logical|Difference|Direct</td>
+    <td class="tg-us36">3726</td>
+    <td class="tg-us36">373</td>
+    <td class="tg-us36">661</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Logical|Incomplete</td>
+    <td class="tg-us36">6372</td>
+    <td class="tg-us36">765</td>
+    <td class="tg-us36">1679</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Mult. entity type|Direct</td>
+    <td class="tg-us36">21110</td>
+    <td class="tg-us36">2161</td>
+    <td class="tg-us36">3910</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Atleast/ Atmost/ Approx. the same/Equal|Single entity type|Direct</td>
+    <td class="tg-us36">27613</td>
+    <td class="tg-us36">2790</td>
+    <td class="tg-us36">2306</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count over Atleast/ Atmost/ Approx. the same/Equal|Mult. entity type|Direct</td>
+    <td class="tg-us36">21257</td>
+    <td class="tg-us36">2272</td>
+    <td class="tg-us36">3850</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count over Atleast/ Atmost/ Approx. the same/Equal|Single entity type|Direct</td>
+    <td class="tg-us36">27507</td>
+    <td class="tg-us36">2801</td>
+    <td class="tg-us36">2288</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Logical operators|Direct</td>
+    <td class="tg-us36">21734</td>
+    <td class="tg-us36">2089</td>
+    <td class="tg-us36">3753</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Logical operators|Indirect</td>
+    <td class="tg-us36">10802</td>
+    <td class="tg-us36">991</td>
+    <td class="tg-us36">2035</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Mult. entity type|Direct</td>
+    <td class="tg-us36">24561</td>
+    <td class="tg-us36">2472</td>
+    <td class="tg-us36">4329</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Single entity type|Direct</td>
+    <td class="tg-us36">51584</td>
+    <td class="tg-us36">5125</td>
+    <td class="tg-us36">4477</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Single entity type|Indirect</td>
+    <td class="tg-us36">15995</td>
+    <td class="tg-us36">1519</td>
+    <td class="tg-us36">2547</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Count|Single entity type|Incomplete</td>
+    <td class="tg-us36">20050</td>
+    <td class="tg-us36">1990</td>
+    <td class="tg-us36"> - </td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Verification|Single/Multiple Entity|Direct</td>
+    <td class="tg-us36">47505</td>
+    <td class="tg-us36">5376</td>
+    <td class="tg-us36">10150</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Verification|Single/Multiple Entity|Indirect</td>
+    <td class="tg-us36">83325</td>
+    <td class="tg-us36">9218</td>
+    <td class="tg-us36">16578</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Clarification (All)</td>
+    <td class="tg-us36">77835</td>
+    <td class="tg-us36">8164</td>
+    <td class="tg-us36">12121</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Indirect (All)</td>
+    <td class="tg-us36">407784</td>
+    <td class="tg-us36">45216</td>
+    <td class="tg-us36">75640</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Incomplete (All)</td>
+    <td class="tg-us36">172957</td>
+    <td class="tg-us36">18341</td>
+    <td class="tg-us36">23220</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Logical|Multiple Relations|Direct</td>
+    <td class="tg-us36">49970</td>
+    <td class="tg-us36">5164</td>
+    <td class="tg-us36">9598</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Min/Max|Single entity type</td>
+    <td class="tg-us36">29409</td>
+    <td class="tg-us36">2942</td>
+    <td class="tg-us36">342</td>
+  </tr>
+  <tr>
+    <td class="tg-us36">Quantitative|Min/Max|Mult. entity type</td>
+    <td class="tg-us36">21098</td>
+    <td class="tg-us36">2133</td>
+    <td class="tg-us36">2695</td>
   </tr>
 </table>
 
@@ -700,7 +600,7 @@ Comparative Indirect (more/less) multiple entity (which)
 
  |  Dataset Statistics                              |  Train   |  Valid  |  Test   | 
  | ------------------------------------------------ | -------- | ------- | ------- | 
- |  Total No. of Dialogs(chat sessions)             |  152391  |  16413  |  27797  | 
+ |  Total No. of Dialogs(chat sessions)             |  152391  |  16813  |  27797  | 
  |  Avg. No. of Utterances per dialog               |  15.9    |  15.65  |  19.44  | 
  |  Total No. of Utterances having Question/Answer  |  1.2M    |  .13M   |  .27M   | 
  |  Length of user’s question (in words)            |  9.7     |  9.68   |  10.28  | 

@@ -50,6 +50,7 @@ Eprint = {arXiv:1801.10314},<br/>
 **DATASET**
 
 Please [click here]({{site.baseurl}}/download/) to download the dataset.<br>
+_**NEW**_: We have revised the dialogs after incorporating some more feedback from users. (__DATED March 29, 2018__). <br>
 
 _**NEW**_: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
 

@@ -4,8 +4,10 @@ title: Download
 permalink: /download/
 ---
 The dataset can be downloaded in .zip format at the link below: <br>
-[Dialog zip link](https://drive.google.com/file/d/1-0ZU-ut05W08_RzdXvBRLu_auAcToTa7/view?usp=sharing) <br>
+[Dialog zip link](https://drive.google.com/file/d/1TKM5Q19VopokKrPLOyM5ZwMTg-_FAgcq/view?usp=sharing) <br>
 The wikidata jsons (in pre-processed format) can be downloaded [here](https://drive.google.com/drive/folders/1ITcgvp4vZo1Wlb66d_SnHvVmLKIqqYbR?usp=sharing)
+
+_**NEW**_: We have revised the dialogs after incorporating some more feedback from users. (__DATED March 29, 2018__). <br>
 
 _**NEW**_: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
 
