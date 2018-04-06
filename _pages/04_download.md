@@ -9,9 +9,9 @@ The wikidata jsons (in pre-processed format) can be downloaded [here](https://dr
 
 _**NEW**_: We have revised the dialogs after incorporating some more feedback from users. (__DATED March 29, 2018__). <br>
 
-_**NEW**_: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
+~~_**NEW**_~~: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
 
-_**NEW**_: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 9, 2018__). <br>
+~~_**NEW**_~~: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 9, 2018__). <br>
 
 ### **Information About Different Json Files Used In Pre-processing**
 
