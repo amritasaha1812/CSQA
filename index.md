@@ -15,7 +15,7 @@ layout: default
 ---
 **CODE**
 
-Github Repository of code [repo link] (https://github.com/amritasaha1812/CSQA_Code)
+Github Repository of code [repo link](https://github.com/amritasaha1812/CSQA_Code)
 
 ---
 ---
