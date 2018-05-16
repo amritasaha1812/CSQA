@@ -13,11 +13,8 @@ layout: default
 
 ---
 **CODE**
-<div class='row section highlight'>
-  <div class='col-xs-10 col-xs-offset-1'>
+
 Github Repository of code [repo link] (https://github.com/amritasaha1812/CSQA_Code)
-  </div>
-</div>
 
 ---
 ---
