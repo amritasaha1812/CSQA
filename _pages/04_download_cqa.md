@@ -3,10 +3,10 @@ layout: page
 title: Download
 permalink: /download_cqa/
 ---
-CQA i.e. subset of the CSQA dataset where the questions are directly answerable. The train, validation and test splits of the dataset are extracted from the respective data-splits in the CSQA dataset. The CQA dataset can be downloaded in .zip format at the link below: <br>
+CQA i.e. subset of the CSQA dataset where the questions are directly answerable. The train, validation and test splits of the dataset are extracted from the respective data-splits in the CSQA dataset. The CQA dataset can be downloaded in .zip format at the link: 
 [Dialog zip link](https://drive.google.com/file/d/1cHSIwUqcZPGP9fZoA46xLRL22kUqqvlo/view?usp=sharing) <br>
 
-CQA-12K a smaller subset of the above CQA dataset, consisting of 10K QA pairs for training and 1K for validation and test split respectively. The train, validation and test splits of the dataset are extracted from the respective data-splits in the CQA dataset. The CQA-12K dataset can be downloaded in the preprocessed .zip format at the link below <br>
+CQA-12K a smaller subset of the above CQA dataset, consisting of 10K QA pairs for training and 1K for validation and test split respectively. The train, validation and test splits of the dataset are extracted from the respective data-splits in the CQA dataset. The CQA-12K dataset can be downloaded in the preprocessed .zip format at the link:
 [Dialog zip link](https://drive.google.com/file/d/1QcQyDcPxuFSQ7HTO03EffAEC-HSSq0MR/view?usp=sharing) <br>
 
 
@@ -14,18 +14,39 @@ The wikidata jsons (in pre-processed format) can be downloaded [here](https://dr
 
 ### **Information About Different Json Files Used In CQA/CQA-12K Pre-processing**
 The preprocessed_data_*.zip contains the following zips, train_*.zip, valid_*.zip and test_*.zip. Each of these zips contain a list of folders, each named as QA_* (like QA_100, QA_10, etc.). Each of these QA_* folders  contains the following files, where each line corresponds to a single QA pair.
-**QA_*_state.txt**  where each line corresponds to one of the seven Query-Types 
-**QA_*_context_utterance.txt** where each line corresponds to the natural language question
-**QA_*_context.txt** where each line corresponds to a tokenized version of the natural language question, with the entity mention replaced by their corresponding QID from wikidata (using oracle entity linker)
-**QA_*_context_entities.txt** where each line corresponds to a pipe-delimited list of QIDs of KB-entities in the query (from oracle entity linker)
-**QA_*_context_relations.txt** where each line corresponds to a pipe-delimited list of PIDs of KB-relations  in the query (from oracle relation linker)
-**QA_*_context_types.txt** where each line corresponds to a pipe-delimited list of QIDs of KB-types in the query (from oracle type linker)
-**QA_*_context_ints.txt** where each line corresponds to a pipe-delimited list of integers in the query
 
-**QA_*_orig_response.txt** where each line corresponds to the natural language response
-**QA_*_response_entities.txt** where each line corresponds to the pipe-delimited list of QIDs of the KB-entities in the response (from the oracle entity linker). The natural language response may have a subsampled list of of entities from this list, that is simply done to keep the conversation realistic. If the response has more than 4-5 entities, the dialog agent usually answers saying, "... X, Y, Z are some of the answers. Do you want to see more?"
-**QA_*_response_ints.txt** where each line corresponds to the pipe-delimited list of integers in the response
-**QA_*_response_bools.txt**  where each line corresponds to the pipe-delimited list of booleans (yes or no) in the response
+1. **QA_*_state.txt**  
+where each line corresponds to one of the seven Query-Types 
+
+2. **QA_*_context_utterance.txt** 
+where each line corresponds to the natural language question
+
+3. **QA_*_context.txt** 
+where each line corresponds to a tokenized version of the natural language question, with the entity mention replaced by their corresponding QID from wikidata (using oracle entity linker)
+
+4. **QA_*_context_entities.txt** 
+where each line corresponds to a pipe-delimited list of QIDs of KB-entities in the query (from oracle entity linker)
+
+5. **QA_*_context_relations.txt** 
+where each line corresponds to a pipe-delimited list of PIDs of KB-relations  in the query (from oracle relation linker)
+
+6. **QA_*_context_types.txt** 
+where each line corresponds to a pipe-delimited list of QIDs of KB-types in the query (from oracle type linker)
+
+7. **QA_*_context_ints.txt** 
+where each line corresponds to a pipe-delimited list of integers in the query
+
+8. **QA_*_orig_response.txt** 
+where each line corresponds to the natural language response
+
+9. **QA_*_response_entities.txt** 
+where each line corresponds to the pipe-delimited list of QIDs of the KB-entities in the response (from the oracle entity linker). The natural language response may have a subsampled list of of entities from this list, that is simply done to keep the conversation realistic. If the response has more than 4-5 entities, the dialog agent usually answers saying, "... X, Y, Z are some of the answers. Do you want to see more?"
+
+10. **QA_*_response_ints.txt** 
+where each line corresponds to the pipe-delimited list of integers in the response
+
+11. **QA_*_response_bools.txt**  
+where each line corresponds to the pipe-delimited list of booleans (yes or no) in the response
 
 
 
