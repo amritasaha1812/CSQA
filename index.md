@@ -46,15 +46,19 @@ Eprint = {arXiv:1801.10314},<br/>
 ---
 **DATASET**
 
-Please [click here]({{site.baseurl}}/download/) to download the dataset.<br>
-
-_**NEW**_: We have revised the dialogs after incorporating some annotation fixes (based on users' feedback) (__DATED May 27, 2018__). <br>
-
-~~_**NEW**_~~: We have revised the dialogs after incorporating some more feedback from users. (__DATED March 29, 2018__). <br>
+Please [click here]({{site.baseurl}}/download/) to download the dataset CSQA.<br>
+_**NEW**_: We have revised the dialogs after incorporating some more feedback from users. (__DATED March 29, 2018__). <br>
 
 ~~_**NEW**_~~: Some slight renaming of JSON fields done in the dialog zip. (__DATED March 15, 2018__). <br>
 
 ~~_**NEW**_~~: We have revised the dialog and wikidata jsons after incorporating feedback from several users. All users are requested to re-download the entire data inclusive of wikidata and dialog JSONs. (__DATED March 6, 2018__). <br>
+
+Please [click here]({{site.baseurl}}/download_CQA/) to download the dataset CQA.<br>
+This contains the subset of the QA pairs from the CSQA dataset, where the questions are answerable without needing the previous dialog context (Hence named Complex Question Answering i.e. CQA)
+
+
+Please [click here]({{site.baseurl}}/download_CQA_12K/) to download the dataset CQA.<br>
+This is same as the above dataset, except its a smaller version, containing only 10K QA pairs for training and 1K for development and test set each. Each of the three splits are respectively subsets of the original train, development, test splits of the CQA dataset. 
 
 ---
 ### Two-Fold Challenges of this Dataset
