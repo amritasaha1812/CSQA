@@ -57,7 +57,7 @@ Please [click here]({{site.baseurl}}/download_CQA/) to download the dataset CQA.
 This contains the subset of the QA pairs from the CSQA dataset, where the questions are answerable without needing the previous dialog context (Hence named Complex Question Answering i.e. CQA)
 
 
-Please [click here]({{site.baseurl}}/download_CQA_12K/) to download the dataset CQA.<br>
+Please [click here]({{site.baseurl}}/download_CQA_12K/) to download the dataset CQA_12K.<br>
 This is same as the above dataset, except its a smaller version, containing only 10K QA pairs for training and 1K for development and test set each. Each of the three splits are respectively subsets of the original train, development, test splits of the CQA dataset. 
 
 ---
