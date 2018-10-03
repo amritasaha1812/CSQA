@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-permalink: /download_cqa/
+permalink: /download_CQA/
 ---
 CQA i.e. subset of the CSQA dataset where the questions are directly answerable. The train, validation and test splits of the dataset are extracted from the respective data-splits in the CSQA dataset. The CQA dataset can be downloaded in .zip format at the link: 
 [Dialog zip link](https://drive.google.com/file/d/1cHSIwUqcZPGP9fZoA46xLRL22kUqqvlo/view?usp=sharing) <br>
