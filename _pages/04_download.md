@@ -4,8 +4,8 @@ title: Download
 permalink: /download/
 ---
 The dataset can be downloaded in .zip format at the link below: <br>
-[Dialog zip link](https://drive.google.com/file/d/1dgf-Qjvhfv-_EWoDjrTCAY5CwYCw-djt/view?usp=sharing) <br>
-The wikidata jsons (in pre-processed format) can be downloaded [here](https://drive.google.com/drive/folders/1ITcgvp4vZo1Wlb66d_SnHvVmLKIqqYbR?usp=sharing)
+[Dialog zip link](https://zenodo.org/record/3268649#.XTFJn_YzZQJ) <br>
+The wikidata jsons (in pre-processed format) can be downloaded [here](https://zenodo.org/record/3267282#.XTFJofYzZQJ)
 
 _**NEW**_: We have revised the dialogs after incorporating some annotation fixes (based on users' feedback) (__DATED May 27, 2018__). <br>
 
