@@ -44,6 +44,12 @@ Eprint = {arXiv:1801.10314},<br/>
 
 ---
 ---
+**LICENSE**
+
+This dataset is released under [Creative-Commons license](https://creativecommons.org/licenses/by-sa/4.0/)
+
+---
+---
 **DATASET**
 
 Please [click here]({{site.baseurl}}/download/) to download the dataset CSQA.<br>
